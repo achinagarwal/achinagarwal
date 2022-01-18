@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.669 sec <<< FAILURE! - in TestSuite
+loginDDT(com.testCases.TC_02_Login_DDT)  Time elapsed: 3.696 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.testCases.TC_02_Login_DDT.loginDDT(TC_02_Login_DDT.java:29)
+

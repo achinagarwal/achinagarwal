@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Framework_Achin">
+  <listeners>
+ 	 <listener class-name="com.Utilities.Reporting" />
+  </listeners>
+  <test name="Banking App Test">
+      <parameter name="browser" value="chrome"/>
+      <classes>
+     <!--  <class name="com.testCases.TC_01_LoginTest_01"/> -->
+        <class name="com.testCases.TC_02_Login_DDT"/>
+      <!-- <class name="com.testCases.TC03_AddCustomerTest"/> -->
+      </classes>
+  </test>  
+</suite> 
